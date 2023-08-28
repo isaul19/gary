@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.auth-container {
+  max-width: 360px;
+  width: 95%;
+  background: #f5f5f5;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-title {
+  color: #151719;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.auth-subtitle {
+  color: #151719;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.auth-form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.auth-label {
+  color: #333;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 2px;
+}
+.auth-label::placeholder {
+  color: #6a798a;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.auth-input {
+  display: block;
+  border-radius: 16px;
+  width: 100%;
+  border: 0.1px solid rgba(0, 0, 0, 0.15);
+  background: #fff;
+  padding: 13px 14px;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.09);
+}
+
+.auth-buttons {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+}
+
+.auth-buttons :nth-child(1) {
+  border-radius: 16px;
+  border: none;
+  background: #048221;
+  font-weight: 900;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 24px;
+}
+
+.auth-buttons :nth-child(2) {
+  border: 2px solid #048221;
+  border-radius: 16px;
+  padding: 10px 0;
+}
